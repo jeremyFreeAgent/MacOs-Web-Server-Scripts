@@ -12,7 +12,7 @@ It's create for a project the Apache2 vhost configuration, activate the vhost, a
 
 ### Usage
 
-Run the command where in your project folder and choose a host name
+Run the command in your project folder and choose a host name :
 
     faNewHost.sh chuck-norris
 
