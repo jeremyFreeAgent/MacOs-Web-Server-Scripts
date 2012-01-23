@@ -2,7 +2,6 @@
 
 
 # Configuration
-PHP="/usr/bin/php"
 APACHE="/usr/local/FreeAgent/apache2/bin/apachectl"
 APACHE_SITES_AVAILABLE="/usr/local/FreeAgent/apache2/sites-available"
 APACHE_SITES_ENABLED="/usr/local/FreeAgent/apache2/sites-enabled"
