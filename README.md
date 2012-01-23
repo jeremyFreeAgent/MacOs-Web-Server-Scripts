@@ -10,6 +10,13 @@ New Host faNewHost.sh
 
 It's create for a project the Apache2 vhost configuration, activate the vhost, add the host entry in /etc/hosts, restart Apache2.
 
+### What you need
+
+In your Apache2 httpd.conf file :
+
+    NameVirtualHost *:80
+    Include sites-enabled/*
+
 ### Usage
 
 Run the command in your project folder and choose a host name :
