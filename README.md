@@ -3,7 +3,40 @@ MacOs Web Server Scripts
 
 My scripts for time saving !
 
-New Host faNewHost.sh
+Install Scripts
+---------------
+
+Run the install command to install scripts to /usr/bin
+
+    install-bin.sh
+
+Enable vhost fa-a2ensite
+------------------------
+
+### What it does
+
+It does the same thing than the debian a2ensite script.
+
+### Usage
+
+Run the command with a host name
+
+    fa-a2ensite chuck-norris
+
+Disable vhost fa-a2dissite
+--------------------------
+
+### What it does
+
+It does the same thing than the debian a2dissite script.
+
+### Usage
+
+Run the command with a host name
+
+    fa-a2dissite chuck-norris
+
+New host fa-newhost
 ---------------------
 
 ### What it does
@@ -21,7 +54,7 @@ In your Apache2 httpd.conf file :
 
 Run the command in your project folder and choose a host name :
 
-    faNewHost.sh chuck-norris
+    fa-newhost chuck-norris
 
 ### Sources
 
