@@ -19,7 +19,7 @@ It creates a new MySQL database with a user.
 
 ### Usage
 
-Run the command with a host name
+Run the command with a database name
 
     fa-newdatabase chucknorris
 
@@ -54,7 +54,7 @@ Create new host fa-newhost
 
 ### What it does
 
-It's create for a project the Apache2 vhost configuration, activate the vhost, add the host entry in /etc/hosts, restart Apache2.
+It creates for a project the Apache2 vhost configuration, activate the vhost, add the host entry in /etc/hosts, restart Apache2.
 
 ### What you need
 
