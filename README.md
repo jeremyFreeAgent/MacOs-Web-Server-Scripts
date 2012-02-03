@@ -10,6 +10,19 @@ Run the install command to install scripts to /usr/bin
 
     install-bin.sh
 
+Create a new database with user fa-newdatabase
+----------------------------------------------
+
+### What it does
+
+It creates a new MySQL database with a user.
+
+### Usage
+
+Run the command with a host name
+
+    fa-newdatabase chucknorris
+
 Enable vhost fa-a2ensite
 ------------------------
 
@@ -36,7 +49,7 @@ Run the command with a host name
 
     fa-a2dissite chuck-norris
 
-New host fa-newhost
+Create new host fa-newhost
 ---------------------
 
 ### What it does
